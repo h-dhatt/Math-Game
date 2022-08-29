@@ -26,10 +26,10 @@ def game():
     while True:
         if ask_question() == True:
             score += 1
-            print('Correct !')
+            print('Correct!')
         else:
-            print('Incorrect')
+            print('Incorrect.')
             break
-    print(f'======== Game Over ========\nYou score is {score}\nKepp going!')
+    print(f'======== Game Over ========\nYou score is {score}\nKeep going!')
 
 game()
